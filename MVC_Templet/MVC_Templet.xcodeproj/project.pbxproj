@@ -14,10 +14,28 @@
 		E03750D127DF15EA00ACD55B /* ColorConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03750D027DF15EA00ACD55B /* ColorConstant.swift */; };
 		E03750D327DF15FA00ACD55B /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03750D227DF15FA00ACD55B /* NetworkClient.swift */; };
 		E03750D527DF161200ACD55B /* CellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03750D427DF161200ACD55B /* CellModel.swift */; };
+		E03750D827DF7D9500ACD55B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03750D727DF7D9500ACD55B /* Extensions.swift */; };
+		E03750DB27DF7F0300ACD55B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03750D927DF7F0300ACD55B /* LoginVC.swift */; };
+		E03750DC27DF7F0300ACD55B /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E03750DA27DF7F0300ACD55B /* LoginVC.xib */; };
 		E038FD2C27DC13E70062E31D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038FD2B27DC13E70062E31D /* AppDelegate.swift */; };
 		E038FD2E27DC13E70062E31D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E038FD2D27DC13E70062E31D /* SceneDelegate.swift */; };
 		E038FD3527DC13E80062E31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E038FD3427DC13E80062E31D /* Assets.xcassets */; };
 		E038FD3827DC13E80062E31D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E038FD3627DC13E80062E31D /* LaunchScreen.storyboard */; };
+		E0D4B2FD27E28EA10010DA09 /* OTPVerifificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B2FB27E28EA10010DA09 /* OTPVerifificationVC.swift */; };
+		E0D4B2FE27E28EA10010DA09 /* OTPVerifificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D4B2FC27E28EA10010DA09 /* OTPVerifificationVC.xib */; };
+		E0D4B30E27E290180010DA09 /* ESPullToRefresh+Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30127E290180010DA09 /* ESPullToRefresh+Manager.swift */; };
+		E0D4B30F27E290180010DA09 /* ESRefreshAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30227E290180010DA09 /* ESRefreshAnimator.swift */; };
+		E0D4B31027E290180010DA09 /* ESRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30327E290180010DA09 /* ESRefreshComponent.swift */; };
+		E0D4B31127E290180010DA09 /* ESRefreshHeaderAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30527E290180010DA09 /* ESRefreshHeaderAnimator.swift */; };
+		E0D4B31227E290180010DA09 /* icon_pull_to_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E0D4B30627E290180010DA09 /* icon_pull_to_refresh_arrow@2x.png */; };
+		E0D4B31327E290180010DA09 /* ESRefreshFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30727E290180010DA09 /* ESRefreshFooterAnimator.swift */; };
+		E0D4B31427E290180010DA09 /* ESRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30827E290180010DA09 /* ESRefreshProtocol.swift */; };
+		E0D4B31527E290180010DA09 /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30927E290180010DA09 /* ES.swift */; };
+		E0D4B31627E290180010DA09 /* ESPullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30A27E290180010DA09 /* ESPullToRefresh.swift */; };
+		E0D4B31727E290180010DA09 /* VPMOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30C27E290180010DA09 /* VPMOTPView.swift */; };
+		E0D4B31827E290180010DA09 /* VPMOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B30D27E290180010DA09 /* VPMOTPTextField.swift */; };
+		E0D4B31C27E2974E0010DA09 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0D4B31A27E2974E0010DA09 /* SignUpVC.swift */; };
+		E0D4B31D27E2974E0010DA09 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D4B31B27E2974E0010DA09 /* SignUpVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,12 +46,30 @@
 		E03750D027DF15EA00ACD55B /* ColorConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorConstant.swift; sourceTree = "<group>"; };
 		E03750D227DF15FA00ACD55B /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		E03750D427DF161200ACD55B /* CellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellModel.swift; sourceTree = "<group>"; };
+		E03750D727DF7D9500ACD55B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E03750D927DF7F0300ACD55B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E03750DA27DF7F0300ACD55B /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
 		E038FD2827DC13E70062E31D /* MVC_Templet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVC_Templet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E038FD2B27DC13E70062E31D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E038FD2D27DC13E70062E31D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E038FD3427DC13E80062E31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E038FD3727DC13E80062E31D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E038FD3927DC13E80062E31D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0D4B2FB27E28EA10010DA09 /* OTPVerifificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerifificationVC.swift; sourceTree = "<group>"; };
+		E0D4B2FC27E28EA10010DA09 /* OTPVerifificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OTPVerifificationVC.xib; sourceTree = "<group>"; };
+		E0D4B30127E290180010DA09 /* ESPullToRefresh+Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ESPullToRefresh+Manager.swift"; sourceTree = "<group>"; };
+		E0D4B30227E290180010DA09 /* ESRefreshAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshAnimator.swift; sourceTree = "<group>"; };
+		E0D4B30327E290180010DA09 /* ESRefreshComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshComponent.swift; sourceTree = "<group>"; };
+		E0D4B30527E290180010DA09 /* ESRefreshHeaderAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshHeaderAnimator.swift; sourceTree = "<group>"; };
+		E0D4B30627E290180010DA09 /* icon_pull_to_refresh_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_pull_to_refresh_arrow@2x.png"; sourceTree = "<group>"; };
+		E0D4B30727E290180010DA09 /* ESRefreshFooterAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshFooterAnimator.swift; sourceTree = "<group>"; };
+		E0D4B30827E290180010DA09 /* ESRefreshProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESRefreshProtocol.swift; sourceTree = "<group>"; };
+		E0D4B30927E290180010DA09 /* ES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ES.swift; sourceTree = "<group>"; };
+		E0D4B30A27E290180010DA09 /* ESPullToRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESPullToRefresh.swift; sourceTree = "<group>"; };
+		E0D4B30C27E290180010DA09 /* VPMOTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPMOTPView.swift; sourceTree = "<group>"; };
+		E0D4B30D27E290180010DA09 /* VPMOTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPMOTPTextField.swift; sourceTree = "<group>"; };
+		E0D4B31A27E2974E0010DA09 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		E0D4B31B27E2974E0010DA09 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +86,9 @@
 		E03750BF27DD1E5C00ACD55B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E0D4B31927E2973A0010DA09 /* SignUpVC */,
+				E0D4B2FA27E28E7E0010DA09 /* OTPVerifificationVC */,
+				E03750D627DF7CFC00ACD55B /* LoginVC */,
 				E03750C027DD1E6500ACD55B /* SplashVC */,
 			);
 			path = Controller;
@@ -83,7 +122,9 @@
 		E03750C727DD57AF00ACD55B /* Common Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0D4B2FF27E28FC30010DA09 /* Extra Libraries */,
 				E03750CC27DF14E900ACD55B /* CustomView.swift */,
+				E03750D727DF7D9500ACD55B /* Extensions.swift */,
 			);
 			path = "Common Files";
 			sourceTree = "<group>";
@@ -113,6 +154,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E03750D627DF7CFC00ACD55B /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				E03750D927DF7F0300ACD55B /* LoginVC.swift */,
+				E03750DA27DF7F0300ACD55B /* LoginVC.xib */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
 		E038FD1F27DC13E70062E31D = {
 			isa = PBXGroup;
 			children = (
@@ -132,8 +182,8 @@
 		E038FD2A27DC13E70062E31D /* MVC_Templet */ = {
 			isa = PBXGroup;
 			children = (
-				E03750C627DD219A00ACD55B /* SceneDelegate */,
 				E03750C527DD218B00ACD55B /* AppDelegate */,
+				E03750C627DD219A00ACD55B /* SceneDelegate */,
 				E03750CB27DD584300ACD55B /* Model */,
 				E03750BF27DD1E5C00ACD55B /* Controller */,
 				E03750C727DD57AF00ACD55B /* Common Files */,
@@ -144,6 +194,66 @@
 				E038FD3927DC13E80062E31D /* Info.plist */,
 			);
 			path = MVC_Templet;
+			sourceTree = "<group>";
+		};
+		E0D4B2FA27E28E7E0010DA09 /* OTPVerifificationVC */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4B2FB27E28EA10010DA09 /* OTPVerifificationVC.swift */,
+				E0D4B2FC27E28EA10010DA09 /* OTPVerifificationVC.xib */,
+			);
+			path = OTPVerifificationVC;
+			sourceTree = "<group>";
+		};
+		E0D4B2FF27E28FC30010DA09 /* Extra Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4B30027E290180010DA09 /* ESPullToRefresh */,
+				E0D4B30B27E290180010DA09 /* VPMOTPView */,
+			);
+			path = "Extra Libraries";
+			sourceTree = "<group>";
+		};
+		E0D4B30027E290180010DA09 /* ESPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4B30127E290180010DA09 /* ESPullToRefresh+Manager.swift */,
+				E0D4B30227E290180010DA09 /* ESRefreshAnimator.swift */,
+				E0D4B30327E290180010DA09 /* ESRefreshComponent.swift */,
+				E0D4B30427E290180010DA09 /* Animator */,
+				E0D4B30827E290180010DA09 /* ESRefreshProtocol.swift */,
+				E0D4B30927E290180010DA09 /* ES.swift */,
+				E0D4B30A27E290180010DA09 /* ESPullToRefresh.swift */,
+			);
+			path = ESPullToRefresh;
+			sourceTree = "<group>";
+		};
+		E0D4B30427E290180010DA09 /* Animator */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4B30527E290180010DA09 /* ESRefreshHeaderAnimator.swift */,
+				E0D4B30627E290180010DA09 /* icon_pull_to_refresh_arrow@2x.png */,
+				E0D4B30727E290180010DA09 /* ESRefreshFooterAnimator.swift */,
+			);
+			path = Animator;
+			sourceTree = "<group>";
+		};
+		E0D4B30B27E290180010DA09 /* VPMOTPView */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4B30C27E290180010DA09 /* VPMOTPView.swift */,
+				E0D4B30D27E290180010DA09 /* VPMOTPTextField.swift */,
+			);
+			path = VPMOTPView;
+			sourceTree = "<group>";
+		};
+		E0D4B31927E2973A0010DA09 /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				E0D4B31A27E2974E0010DA09 /* SignUpVC.swift */,
+				E0D4B31B27E2974E0010DA09 /* SignUpVC.xib */,
+			);
+			path = SignUpVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,7 +315,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E038FD3827DC13E80062E31D /* LaunchScreen.storyboard in Resources */,
+				E0D4B2FE27E28EA10010DA09 /* OTPVerifificationVC.xib in Resources */,
+				E0D4B31D27E2974E0010DA09 /* SignUpVC.xib in Resources */,
 				E03750C427DD1E9D00ACD55B /* SplashVC.xib in Resources */,
+				E0D4B31227E290180010DA09 /* icon_pull_to_refresh_arrow@2x.png in Resources */,
+				E03750DC27DF7F0300ACD55B /* LoginVC.xib in Resources */,
 				E038FD3527DC13E80062E31D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,13 +332,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				E03750C327DD1E9D00ACD55B /* SplashVC.swift in Sources */,
+				E0D4B30F27E290180010DA09 /* ESRefreshAnimator.swift in Sources */,
+				E03750D827DF7D9500ACD55B /* Extensions.swift in Sources */,
 				E038FD2C27DC13E70062E31D /* AppDelegate.swift in Sources */,
 				E03750D327DF15FA00ACD55B /* NetworkClient.swift in Sources */,
+				E0D4B31127E290180010DA09 /* ESRefreshHeaderAnimator.swift in Sources */,
+				E03750DB27DF7F0300ACD55B /* LoginVC.swift in Sources */,
+				E0D4B30E27E290180010DA09 /* ESPullToRefresh+Manager.swift in Sources */,
+				E0D4B31827E290180010DA09 /* VPMOTPTextField.swift in Sources */,
+				E0D4B31027E290180010DA09 /* ESRefreshComponent.swift in Sources */,
+				E0D4B31327E290180010DA09 /* ESRefreshFooterAnimator.swift in Sources */,
 				E03750D527DF161200ACD55B /* CellModel.swift in Sources */,
+				E0D4B31527E290180010DA09 /* ES.swift in Sources */,
+				E0D4B31727E290180010DA09 /* VPMOTPView.swift in Sources */,
+				E0D4B31C27E2974E0010DA09 /* SignUpVC.swift in Sources */,
 				E038FD2E27DC13E70062E31D /* SceneDelegate.swift in Sources */,
+				E0D4B31627E290180010DA09 /* ESPullToRefresh.swift in Sources */,
 				E03750CF27DF15D800ACD55B /* StringConstants.swift in Sources */,
 				E03750CD27DF14E900ACD55B /* CustomView.swift in Sources */,
 				E03750D127DF15EA00ACD55B /* ColorConstant.swift in Sources */,
+				E0D4B2FD27E28EA10010DA09 /* OTPVerifificationVC.swift in Sources */,
+				E0D4B31427E290180010DA09 /* ESRefreshProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

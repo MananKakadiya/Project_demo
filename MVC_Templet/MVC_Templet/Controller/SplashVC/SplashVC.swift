@@ -14,7 +14,8 @@ class SplashVC: UIViewController {
         
         
         
-        
+        let vc = LoginVC()
+        self.navigationController?.pushViewController(vc, animated: true)
         
         
         
